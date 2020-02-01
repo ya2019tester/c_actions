@@ -1,6 +1,9 @@
 #include "unity.h"
 #include "myhead.h"
 
+void setUp (void) {} /* Is run before every test, put unit init calls here. */
+void tearDown (void) {} /* Is run after every test, put unit clean-up calls here. */
+
 void test_AverageThreeBytes_should_AverageMidRangeValues(void)
 {
 TEST_ASSERT_EQUAL_INT(40, add(30, 40));
